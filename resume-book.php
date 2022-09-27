@@ -9,3 +9,7 @@
  * Author:          Eli Byrd
  * Author URI:      https://thebyrdspot.com/about-me
 */
+
+include( 'includes/shortcodes.php' );
+
+add_shortcode('mrdt', 'resumeBook');
